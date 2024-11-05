@@ -1,0 +1,44 @@
+
+
+.servicios{
+  padding: 5rem 0rem;
+  h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: 600;
+  }
+  &_row{
+    padding-top: 1rem;
+    &_icon{
+      color:$primary-color;
+      font-size: 3rem;
+    }
+  }
+}
+
+.testimonios{
+  padding: 5rem 0rem;
+  h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: 600;
+  }
+  &_row{
+    padding-top: 1rem;
+  }
+}
+
+
+
+@media (max-width: 780px) {
+   /* … */
+ }
+
+@media (min-width: 781px) and (max-width: 1280px) {
+   /* … */
+ }
+
+ @media (min-width: 1281px) {
+   /* … */
+ }
+ 

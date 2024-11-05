@@ -1,0 +1,61 @@
+// paleta de colores #1B264F 274690 576ca8 302b27 f5f3f5
+
+
+.nav-item{
+  font-family: $display-font-family;
+}
+
+
+
+// Estilos globales
+.header {
+  background-color: $primary-color; // Color de fondo
+  color: #333; // Color del texto
+  &_navbar{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;   
+  }
+}
+
+.nav_link_btn{
+  background-color: #ffffff;
+  color: $primary-color;
+  padding: 1px 5px;
+  &:hover{
+    background-color: $third-color;
+  }
+  &:active{
+    background-color: $third-color;
+  }
+}
+
+
+
+@media (max-width: 780px) {
+  .navbar-logo {
+    padding-left: 10px;
+  }
+  .navbar-toggler{
+    margin-right: 10px;
+    i{
+      color:$light-color;
+      font-size: 25px;
+    }
+  }  
+
+
+ }
+
+@media (min-width: 781px) and (max-width: 1280px) {
+  .navbar-logo {
+    padding-left: 10px;
+  }
+ }
+
+ @media (min-width: 1281px) {
+  .navbar-logo {
+    padding-left: 10px;
+  }
+ }
+ 

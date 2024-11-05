@@ -1,0 +1,35 @@
+// paleta de colores #1B264F 274690 576ca8 302b27 f5f3f5
+
+
+.equipo{
+  padding: 5rem 0rem;
+  h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+}
+
+.doctor_especialidad{
+  text-align: center;
+  font-size: 14px;
+  color: $secondary-color;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+.doctor_especialidad::before{
+  content: "-";
+}
+
+@media (max-width: 780px) {
+   /* … */
+ }
+
+@media (min-width: 781px) and (max-width: 1280px) {
+   /* … */
+ }
+
+ @media (min-width: 1281px) {
+   /* … */
+ }
+ 
