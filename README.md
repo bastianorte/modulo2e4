@@ -100,7 +100,9 @@ Esto generará los archivos optimizados en la carpeta dist.
 ## :pencil2: Autores
 
 Natalia Albornoz Parra
+
 Bastian Ortega Fuenzalida
+
 Nadja Villarroel Navarro
 
 
