@@ -34,6 +34,9 @@
             <li class="nav-item">
               <a class="nav-link" href="contacto.html"><button class="btn nav_link_btn">Reservar cita</button></a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link"><button class="btn nav_link_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Importante!</button></a>
+             </li>
           </ul>
       </div>
     </nav>
@@ -96,6 +99,39 @@
     <div class="col-lg-4 footer_link"><a href="#"><i class='bx bxl-youtube' name='youtube-square' alt="icono youtube"></i></a></div>    
   </div>
 </footer>
+
+    <!--Modal-->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Importante!</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">No olvides traer tu cédula de identidad y tu orden médica cuando nos visites.</div>
+            <img src="../src/images/modal1.jpg" width="300px">
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Entiendo
+          </div>
+        </div>
+      </div>
+    </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>

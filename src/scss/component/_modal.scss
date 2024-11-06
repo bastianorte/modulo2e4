@@ -1,1 +1,6 @@
 //modal
+.modal-content{
+    img{
+        @include mx-auto;
+    }
+}

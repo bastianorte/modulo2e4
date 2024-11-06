@@ -18,39 +18,7 @@
     />
   </head>
   <body>
-    <!--Modal-->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Importante!</h1>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">No olvides traer tu cédula de identidad y tu orden médica cuando nos visites.</div>
-            <img src=".../src/images/modal1.jpg" 
-            width="300px">
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Entiendo
-          </div>
-        </div>
-      </div>
-    </div>
+
 
     <header class="header">
       <nav class="navbar navbar-expand-lg header_navbar" data-bs-theme="dark">
@@ -82,23 +50,11 @@
               <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"
-              href="contacto.html"
-                ><button class="btn nav_link_btn" id="reservar">
-                  Reservar cita
-                </button></a
-              >
+              <a class="nav-link" href="contacto.html"><button class="btn nav_link_btn" id="reservar">Reservar cita</button></a>
             </li>
 
             <li class="nav-item">
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                Importante!
-              </button>
+             <a class="nav-link"><button class="btn nav_link_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Importante!</button></a>
             </li>
           </ul>
         </div>
@@ -225,6 +181,39 @@
     <div class="col-lg-4 footer_link"><a href="#"><i class='bx bxl-youtube' name='youtube-square' alt="icono youtube"></i></a></div>
   </div>
 </footer>  
+
+    <!--Modal-->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Importante!</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">No olvides traer tu cédula de identidad y tu orden médica cuando nos visites.</div>
+            <img src="../src/images/modal1.jpg" width="300px">
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Entiendo
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
