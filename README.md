@@ -70,7 +70,7 @@ Este es un proyecto web que utiliza Webpack, Bootstrap, y SASS para crear un sit
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/bastianorte/proyecto-base.git
+   git clone https://github.com/bastianorte/modulo2e4.git
    cd tu-repo
 
 2. Instala las dependencias:
