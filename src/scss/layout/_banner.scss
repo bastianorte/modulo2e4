@@ -8,6 +8,8 @@
         }
     }
 
+
+
  
   @media (max-width: 780px) {
             .banner{
@@ -21,7 +23,12 @@
                 p{
                     font-size: 1rem;
                     font-weight: 400; 
-                }                
+                }   
+                button{
+                    @include botonm;
+                    width:100%;
+                    font-size: 1rem;
+                }             
             }
         }   
     }  
@@ -40,7 +47,12 @@
                 p{
                     font-size: 1.5em;
                     font-weight: 400; 
-                }                
+                }      
+                button{
+                    @include botonm;
+                    width:500px;
+                    font-size: 1.2rem;
+                }               
             }
         }
     }
@@ -58,7 +70,12 @@
                 p{
                     font-size: 1.5rem;
                     font-weight: 400; 
-                }                
+                }   
+                button{
+                    @include botonm;
+                    width:500px;
+                    font-size: 1.2rem;
+                }                  
             }
         }
    }
