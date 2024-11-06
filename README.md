@@ -1,6 +1,6 @@
 # Modulo 2 Ejercicio 4 
 
-## :pencil2: Autorer
+## :pencil2: Autores
 
 
 Bastian Ortega Fuenzalida
