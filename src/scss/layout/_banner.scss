@@ -2,8 +2,7 @@
         background-color: $light-color;
         max-width: 100%;
         &_container{
-            margin-left: auto;
-            margin-right: auto;
+            @include mx-auto;
             text-align: center;
         }
     }

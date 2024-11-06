@@ -3,8 +3,7 @@
 
 .contacto{
   margin: 3rem 0rem;
-  margin-left: auto;
-  margin-right: auto;
+  @include mx-auto;
 }
 
 .contacto_row_col{
