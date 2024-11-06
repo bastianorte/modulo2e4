@@ -3,8 +3,7 @@
 
 .contacto{
   margin: 3rem 0rem;
-  margin-left: auto;
-  margin-right: auto;
+  @include mx-auto;
 }
 
 .contacto_row_col{
@@ -35,10 +34,8 @@ width: 100%;
 form {
 	
   .form-control {
-    background-color: $form-color;
+    @include styles_input_form;
 		border-radius: 1rem;
-    border: none;
-    box-shadow: 0px 5px 4px $shadow-color;
     margin-bottom: 15px;
 		
     &.thick {
@@ -46,9 +43,7 @@ form {
     }
 		
 		&:focus {
-			background-color: $form-color;
-			border: none;
-			box-shadow: 0px 5px 4px $shadow-color;
+      @include styles_input_form;
 		}
   }
 

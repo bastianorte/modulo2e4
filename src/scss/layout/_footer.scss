@@ -41,6 +41,14 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .footer_hr{
+    padding-bottom: 5px;
+    hr{
+      border-top: 0px solid $primary-color;
+      border-bottom: 0.1rem solid $primary-color;
+      width: 100%;
+    }
+  }
  }
 
 @media (min-width: 781px) and (max-width: 1280px) {
@@ -49,6 +57,14 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .footer_hr{
+    hr{
+      border-top: 0px solid $primary-color;
+      border-bottom: 0.1rem solid $primary-color;
+      width: 1000px;
+      @include mx-auto;
+    }
+  }
  }
 
  @media (min-width: 1281px) {
@@ -56,6 +72,14 @@
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .footer_hr{
+    hr{
+      border-top: 0px solid $primary-color;
+      border-bottom: 0.1rem solid $primary-color;
+      width: 1000px;
+      @include mx-auto;
+    }
   }
  }
  
