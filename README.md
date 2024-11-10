@@ -55,7 +55,7 @@ Este es un proyecto web que utiliza Webpack, Bootstrap, y SASS para crear un sit
 │   └──  js    
 │         └── js**       
 │
-│── Archivos Webpack y Package
+│── Archivos Webpack, Dist comprimido y Package
 │                
 ```
 
@@ -87,6 +87,7 @@ Esto abrirá el proyecto en http://localhost:8080.
    npm run build
 
 Esto generará los archivos optimizados en la carpeta dist.
+Se agrego tambien la carpeta dist comprimida al repositorio
 
 ```
 ## 🔧 Tecnologías Usadas
