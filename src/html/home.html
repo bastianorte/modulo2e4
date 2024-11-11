@@ -9,10 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Boxicons -->
     <link
-      href="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"
-      rel="stylesheet"
-    />
-    <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
@@ -148,17 +144,17 @@
 <section class="container testimonios">
   <h2 class="pb-2 text-center">Testimonios</h2>
   <article class="row testimonios_row">
-    <div class="col-lg-4 text-center">
+    <div class="col-lg-4 text-center testimonios_col">
       <img src="../src/images/pr1.jpg" class="rounded-circle" alt="imagen testimonio Mateo" width="100" height="100"> 
       <h3 class="fw-normal">Mateo</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus magnam soluta culpa commodi assumenda quae rem perspiciatis cum ipsam dolores, nesciunt deserunt quo. Quae rerum optio eaque distinctio voluptatum ab!</p>
     </div><!-- /.col-lg-4 -->
-    <div class="col-lg-4 text-center">
+    <div class="col-lg-4 text-center testimonios_col">
       <img src="../src/images/pr2.jpg" class="rounded-circle" alt="imagen testimonio Marcos" width="100" height="100"> 
       <h3 class="fw-normal">Marcos</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus magnam soluta culpa commodi assumenda quae rem perspiciatis cum ipsam dolores, nesciunt deserunt quo. Quae rerum optio eaque distinctio voluptatum ab!</p>
     </div><!-- /.col-lg-4 -->
-    <div class="col-lg-4 text-center">
+    <div class="col-lg-4 text-center testimonios_col">
       <img src="../src/images/pr3.jpg" class="rounded-circle" alt="imagen testimonio Lucas" width="100" height="100"> 
       <h3 class="fw-normal">Lucas</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus magnam soluta culpa commodi assumenda quae rem perspiciatis cum ipsam dolores, nesciunt deserunt quo. Quae rerum optio eaque distinctio voluptatum ab!</p>
@@ -215,16 +211,19 @@
       </div>
     </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-      crossorigin="anonymous"
-    ></script>
+    <script>
+      $(document).ready(function () {
+          $("#exampleModal").click(function(){
+              setTimeout(function() {
+                  $('#exampleModal').modal('toggle');
+              }, 5000);
+          });
+      });
+  </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="/src/js/main.js"></script>
   </body>
 </html>

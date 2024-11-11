@@ -21,6 +21,12 @@
   content: "-";
 }
 
+.equipo_col{
+  img{
+    @include byn;
+  }
+}
+
 @media (max-width: 780px) {
    /* … */
  }
